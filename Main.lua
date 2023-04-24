@@ -13,7 +13,7 @@ function hasProperty(object, propertyName)
     return success
 end
 wait(1)
-firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Script Made By JohnyGaming#2917',true,5)
+firesignal(game:GetService("ReplicatedStorage").EntityInfo.Caption.OnClientEvent, 'Script Made By JohnyGaming#2917',true,10)
 local IsMorphed = false
 game:GetService("RunService").RenderStepped:Connect(function()
     if IsMorphed then
